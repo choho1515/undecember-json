@@ -1,537 +1,537 @@
 {
-    "money" : [
-        {
-            "image":"https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Coin_Diamond_e7znf3c.png",
-            "name" : "다이아",
-            "get" : [
-                "현금 구매"
-            ],
-            "where" : [
-                "편의 상품(창고, 펫) 구매",
-                "코스튬 구매",
-                "루비 교환"
-            ],
-            "description" : "현금으로만 획득 가능한 유료 재화로 상점을 통해 편의 상품을 구매하거나 인게임 UI에서 창고 확장이나 코스튬 구매 등에 바로 사용할 수 있습니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Coin_Ruby_iK1nf3c.png",
-            "name" : "루비",
-            "get" : [
-                "다이아 구매",
-                "경매장"
-            ],
-            "where" : [
-                "낮은 등급의 에센스 구매",
-                "소모품 구매",
-                "경매장 거래 재화"
-            ],
-            "description" : "경매장에서 통용되는 거래 재화로, 다이아로 교환하거나 경매장에서 물품을 판매하여 획득할 수 있습니다.\n상점에서 낮은 등급의 에센스나 소모품 교환에도 사용할 수 있습니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Common_ContentRewardCoin_oh3nf3c.png",
-            "name" : "용기의 원석",
-            "get" : [
-                "콘텐츠 보상",
-                "이벤트 보상"
-            ],
-            "where" : [
-                "낮은 등급의 에센스 구매",
-                "낮은 등급의 원소 구매"
-            ],
-            "description" : "게임 내 콘텐츠 참여 보상이나 이벤트 보상으로 획득하는 재화입니다.\n액트2 부터 등장하는 원석 수집가를 통해 게임 아이템으로 교환할 수 있습니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Common_ContentRewardCoin2_ge4nf3c.png",
-            "name" : "증명의 원석",
-            "get" : [
-                "랭킹 보상"
-            ],
-            "where" : [
-                "높은 등급의 에센스 구매"
-            ],
-            "description" : "게임 내 콘텐츠 참여 보상으로 획득하는 귀중한 재화입니다.\n액트2 부터 등장하는 원석 수집가를 통해 게임 아이템으로 교환할 수 있습니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Coin_Gold_Rm5nf3c.png",
-            "name" : "골드",
-            "get" : [
-                "드랍",
-                "아이템 판매"
-            ],
-            "where" : [
-                "NPC 상점 아이템 구매",
-                "컨텐츠 소모 재화 (룬 성장, 연금술 등)"
-            ],
-            "description" : "필드에서 드랍되거나 NPC를 통해 아이템을 판매하여 획득할 수 있습니다.\n게임 플레이에 공통으로 사용되는 기본 재화입니다."
-        }
-    ],
-    "runes_essence" : [
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_ChangeSlotCount_LA8nf3c.png",
-            "name" : "룬 탄생 에센스",
-            "rating" : "일반",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "전체"
-            ],
-            "description" : "연결된 슬롯을 무작위로 다시 부여합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_ChangeSlotPosition_2C9nf3c.png",
-            "name" : "룬 연결 에센스",
-            "rating" : "일반",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "전체"
-            ],
-            "description" : "연결된 슬롯의 위치를 무작위로 변경 시킵니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_ChangeSlotColor_E79nf3c.png",
-            "name" : "룬 빛깔 에센스",
-            "rating" : "일반",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "전체"
-            ],
-            "description" : "연결된 슬롯의 색상을 무작위로 변경 시킵니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_SlotcountChangeFive_FbBof3c.png",
-            "name" : "룬 오각 에센스",
-            "rating" : "희귀",
-            "get" : [
-                "패스",
-                "이벤트"
-            ],
-            "available" : [
-                "전체"
-            ],
-            "description" : "스킬 룬에 룬 슬롯을 추가해 5슬롯으로 변경시킵니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RuneChangeMagic_zbFof3c.png",
-            "name" : "스킬 룬 마법 상승 에센스",
-            "rating" : "마법",
-            "get" : [
-                "드랍",
-                "분해",
-                "원석"
-            ],
-            "available" : [
-                "일반"
-            ],
-            "description" : "스킬 룬 일반 등급을 마법 등급으로 변경시킵니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RuneChangeRare_2eGof3c.png",
-            "name" : "스킬 룬 희귀 상승 에센스",
-            "rating" : "희귀",
-            "get" : [
-                "드랍",
-                "분해",
-                "원석"
-            ],
-            "available" : [
-                "마법"
-            ],
-            "description" : "스킬 룬 마법 등급을 희귀 등급으로 변경시킵니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RuneChangeLegend_sHIof3c.png",
-            "name" : "스킬 룬 전설 상승 에센스",
-            "rating" : "전설",
-            "get" : [
-                "드랍",
-                "분해",
-                "거래"
-            ],
-            "available" : [
-                "희귀"
-            ],
-            "description" : "스킬 룬 희귀 등급을 전설 등급으로 변경시킵니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_LinkRuneChangeMagic_2cKof3c.png",
-            "name" : "링크 룬 마법 상승 에센스",
-            "rating" : "마법",
-            "get" : [
-                "드랍",
-                "분해",
-                "원석"
-            ],
-            "available" : [
-                "일반"
-            ],
-            "description" : "링크 룬 일반 등급을 마법 등급으로 변경시킵니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_LinkRuneChangeRare_iaLof3c.png",
-            "name" : "링크 룬 희귀 상승 에센스",
-            "rating" : "희귀",
-            "get" : [
-                "드랍",
-                "분해",
-                "원석"
-            ],
-            "available" : [
-                "마법"
-            ],
-            "description" : "링크 룬 마법 등급을 희귀 등급으로 변경시킵니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_LinkRuneChangeLegend_FcMof3c.png",
-            "name" : "링크 룬 전설 상승 에센스",
-            "rating" : "전설",
-            "get" : [
-                "드랍",
-                "분해",
-                "거래"
-            ],
-            "available" : [
-                "희귀"
-            ],
-            "description" : "링크 룬 희귀 등급을 전설 등급으로 변경시킵니다."
-        }
-    ],
-    "equipment_essence" : [
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_GradeFixedChangeNormal_WHOof3c.png",
-            "name" : "마법 상승 에센스",
-            "rating" : "마법",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "일반",
-                "마법"
-            ],
-            "description" : "일반, 마법 등급 아이템을 마법 등급으로 변경시키고, 옵션 최대개수를 재설정합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomOptionAllChangeMagic_58Pof3c.png",
-            "name" : "마법 탄생 에센스",
-            "rating" : "마법",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "마법"
-            ],
-            "description" : "마법 등급 아이템에 무작위로 옵션을 다시 부여합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomOptionAddMagic_FYRof3c.png",
-            "name" : "마법 부여 에센스",
-            "rating" : "마법",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "마법"
-            ],
-            "description" : "마법 등급 아이템에 무작위로 옵션 1종을 추가 부여합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomOptionValueChangeMagic_ohWof3c.png",
-            "name" : "마법 변화 에센스",
-            "rating" : "마법",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "마법"
-            ],
-            "description" : "마법 등급 아이템에 부여된 옵션의 수치 값을 다시 부여합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_MaxoptioncountAddcountMagic_poXof3c.png"
-            "name" : "마법 확장 에센스",
-            "rating" : "마법",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "마법"
-            ],
-            "description" : "마법 등급 아이템의 옵션 최대개수를 +1합니다.(최대 3개)"
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_GradeRandomchangeNormalToAll_dgaof3c.png",
-            "name" : "랜덤 상승 에센스",
-            "rating" : "일반",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "일반"
-            ],
-            "description" : "일반 등급 아이템을 마법/희귀/유물 등급으로 무작위 변경합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_GradeFixedchangeMagicRareToNormal_uubof3c.png",
-            "name" : "희귀 에센스",
-            "rating" : "일반",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "마법",
-                "희귀",
-                "전설"
-            ],
-            "description" : "마법, 희귀, 전설 등급 아이템을 일반 등급으로 변경합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_GradeFixedChangeMagic_5vdof3c.png",
-            "name" : "희귀 상승 에센스",
-            "rating" : "마법",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "마법"
-            ],
-            "description" : "마법 등급 아이템을 희귀 등급으로 변경시킵니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomOptionAllChangeRare_PRgof3c.png",
-            "name" : "희귀 탄생 에센스",
-            "rating" : "희귀",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "희귀"
-            ],
-            "description" : "희귀 등급 아이템에 무작위로 옵션을 다시 부여합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomOptionAddRare_kQhof3c.png",
-            "name" : "희귀 부여 에센스",
-            "rating" : "희귀",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "희귀"
-            ],
-            "description" : "희귀 등급 아이템에 무작위로 옵션 1종을 추가 부여합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomOptionValueChangeRare_7Fjof3c.png",
-            "name" : "희귀 변화 에센스",
-            "rating" : "희귀",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "희귀"
-            ],
-            "description" : "희귀 등급 아이템에 부여된 옵션의 수치 값을 다시 부여합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_MaxoptioncountAddcountRare_Ijkof3c.png",
-            "name" : "희귀 확장 에센스",
-            "rating" : "희귀",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "희귀"
-            ],
-            "description" : "희귀 등급 아이템의 옵션 최대개수를 +1합니다.(최대 6개)"
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomoptionDeleteMagicRare_0klof3c.png",
-            "name" : "소멸 에센스",
-            "rating" : "희귀",
-            "get" : [
-                "드랍",
-                "분해",
-                "상점",
-                "원석"
-            ],
-            "available" : [
-                "마법",
-                "희귀"
-            ],
-            "description" : "마법, 희귀 등급 아이템의 옵션 1종을 무작위로 제거합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_QualityAllchangeNormal_hpmof3c.png",
-            "name" : "퀄리티 탄생 에센스",
-            "rating" : "희귀",
-            "get" : [
-                "드랍",
-                "분해",
-                "원석"
-            ],
-            "available" : [
-                "일반"
-            ],
-            "description" : "일반 등급 아이템의 기존 퀄리티를 삭제하고 새로 부여합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_QualityAlterationNormal_VRoof3c.png",
-            "name" : "퀄리티 개조 에센스",
-            "rating" : "전설",
-            "get" : [
-                "드랍",
-                "분해",
-                "거래",
-                "원석"
-            ],
-            "available" : [
-                "일반",
-                "마법",
-                "희귀",
-                "전설"
-            ],
-            "description" : "퀄리티 +10 이상인 아이템의 퀄리티를 -5 ~ +10 개조합니다.\n한 아이템에 1회만 사용 가능합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_PrefixoptionAllchangeMagicRare_SLrof3c.png",
-            "name" : "접두 옵션 탄생 에센스",
-            "rating" : "유물",
-            "get" : [
-                "드랍",
-                "분해",
-                "거래",
-                "원석"
-            ],
-            "available" : [
-                "마법",
-                "희귀"
-            ],
-            "description" : "마법, 희귀 등급 아이템의 접두 옵션을 무작위로 다시 부여합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_PrefixoptionDeleteMagicRare_MLsof3c.png",
-            "name" : "접두 옵션 제거 에센스",
-            "rating" : "유물",
-            "get" : [
-                "드랍",
-                "분해",
-                "거래",
-                "원석"
-            ],
-            "available" : [
-                "마법",
-                "희귀"
-            ],
-            "description" : "마법, 희귀 등급 아이템의 접두 옵션에서 1종을 무작위로 제거합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_SuffixoptionAllchangeMagicRare_GXtof3c.png",
-            "name" : "접미 옵션 탄생 에센스",
-            "rating" : "유물",
-            "get" : [
-                "드랍",
-                "분해",
-                "거래",
-                "원석"
-            ],
-            "available" : [
-                "마법",
-                "희귀"
-            ],
-            "description" : "마법, 희귀 등급 아이템의 접미 옵션을 무작위로 다시 부여합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_SuffixoptionDeleteMagicRare_Rluof3c.png",
-            "name" : "접미 옵션 제거 에센스",
-            "rating" : "유물",
-            "get" : [
-                "드랍",
-                "분해",
-                "거래",
-                "원석"
-            ],
-            "available" : [
-                "마법",
-                "희귀"
-            ],
-            "description" : "마법, 희귀 등급 아이템의 접미 옵션에서 1종을 무작위로 제거합니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_GradeFixedChangeRareToLegend_UCwof3c.png",
-            "name" : "전설 상승 에센스",
-            "rating" : "전설",
-            "get" : [
-                "드랍",
-                "분해",
-                "거래"
-            ],
-            "available" : [
-                "희귀"
-            ],
-            "description" : "희귀 등급 아이템을 전설 등급으로 변경합니다.\n기존 옵션은 더 이상 인챈트 할 수 없습니다."
-        },
-        {
-            "image" : "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomoptionAddLegend_LHxof3c.png",
-            "name" : "전설 부여 에센스",
-            "rating" : "전설",
-            "get" : [
-                "드랍",
-                "분해",
-                "거래"
-            ],
-            "available" : [
-                "전설"
-            ],
-            "description" : "전설 등급 아이템에 옵션 1종을 추가 부여합니다."
-        }
-    ]
+  "money": [
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Coin_Diamond_e7znf3c.png",
+      "name": "다이아",
+      "get": [
+        "현금 구매"
+      ],
+      "where": [
+        "편의 상품(창고, 펫) 구매",
+        "코스튬 구매",
+        "루비 교환"
+      ],
+      "description": "현금으로만 획득 가능한 유료 재화로 상점을 통해 편의 상품을 구매하거나 인게임 UI에서 창고 확장이나 코스튬 구매 등에 바로 사용할 수 있습니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Coin_Ruby_iK1nf3c.png",
+      "name": "루비",
+      "get": [
+        "다이아 구매",
+        "경매장"
+      ],
+      "where": [
+        "낮은 등급의 에센스 구매",
+        "소모품 구매",
+        "경매장 거래 재화"
+      ],
+      "description": "경매장에서 통용되는 거래 재화로, 다이아로 교환하거나 경매장에서 물품을 판매하여 획득할 수 있습니다.\n상점에서 낮은 등급의 에센스나 소모품 교환에도 사용할 수 있습니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Common_ContentRewardCoin_oh3nf3c.png",
+      "name": "용기의 원석",
+      "get": [
+        "콘텐츠 보상",
+        "이벤트 보상"
+      ],
+      "where": [
+        "낮은 등급의 에센스 구매",
+        "낮은 등급의 원소 구매"
+      ],
+      "description": "게임 내 콘텐츠 참여 보상이나 이벤트 보상으로 획득하는 재화입니다.\n액트2 부터 등장하는 원석 수집가를 통해 게임 아이템으로 교환할 수 있습니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Common_ContentRewardCoin2_ge4nf3c.png",
+      "name": "증명의 원석",
+      "get": [
+        "랭킹 보상"
+      ],
+      "where": [
+        "높은 등급의 에센스 구매"
+      ],
+      "description": "게임 내 콘텐츠 참여 보상으로 획득하는 귀중한 재화입니다.\n액트2 부터 등장하는 원석 수집가를 통해 게임 아이템으로 교환할 수 있습니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Coin_Gold_Rm5nf3c.png",
+      "name": "골드",
+      "get": [
+        "드랍",
+        "아이템 판매"
+      ],
+      "where": [
+        "NPC 상점 아이템 구매",
+        "컨텐츠 소모 재화 (룬 성장, 연금술 등)"
+      ],
+      "description": "필드에서 드랍되거나 NPC를 통해 아이템을 판매하여 획득할 수 있습니다.\n게임 플레이에 공통으로 사용되는 기본 재화입니다."
+    }
+  ],
+  "runes_essence": [
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_ChangeSlotCount_LA8nf3c.png",
+      "name": "룬 탄생 에센스",
+      "rating": "일반",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "전체"
+      ],
+      "description": "연결된 슬롯을 무작위로 다시 부여합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_ChangeSlotPosition_2C9nf3c.png",
+      "name": "룬 연결 에센스",
+      "rating": "일반",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "전체"
+      ],
+      "description": "연결된 슬롯의 위치를 무작위로 변경 시킵니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_ChangeSlotColor_E79nf3c.png",
+      "name": "룬 빛깔 에센스",
+      "rating": "일반",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "전체"
+      ],
+      "description": "연결된 슬롯의 색상을 무작위로 변경 시킵니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_SlotcountChangeFive_FbBof3c.png",
+      "name": "룬 오각 에센스",
+      "rating": "희귀",
+      "get": [
+        "패스",
+        "이벤트"
+      ],
+      "available": [
+        "전체"
+      ],
+      "description": "스킬 룬에 룬 슬롯을 추가해 5슬롯으로 변경시킵니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RuneChangeMagic_zbFof3c.png",
+      "name": "스킬 룬 마법 상승 에센스",
+      "rating": "마법",
+      "get": [
+        "드랍",
+        "분해",
+        "원석"
+      ],
+      "available": [
+        "일반"
+      ],
+      "description": "스킬 룬 일반 등급을 마법 등급으로 변경시킵니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RuneChangeRare_2eGof3c.png",
+      "name": "스킬 룬 희귀 상승 에센스",
+      "rating": "희귀",
+      "get": [
+        "드랍",
+        "분해",
+        "원석"
+      ],
+      "available": [
+        "마법"
+      ],
+      "description": "스킬 룬 마법 등급을 희귀 등급으로 변경시킵니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RuneChangeLegend_sHIof3c.png",
+      "name": "스킬 룬 전설 상승 에센스",
+      "rating": "전설",
+      "get": [
+        "드랍",
+        "분해",
+        "거래"
+      ],
+      "available": [
+        "희귀"
+      ],
+      "description": "스킬 룬 희귀 등급을 전설 등급으로 변경시킵니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_LinkRuneChangeMagic_2cKof3c.png",
+      "name": "링크 룬 마법 상승 에센스",
+      "rating": "마법",
+      "get": [
+        "드랍",
+        "분해",
+        "원석"
+      ],
+      "available": [
+        "일반"
+      ],
+      "description": "링크 룬 일반 등급을 마법 등급으로 변경시킵니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_LinkRuneChangeRare_iaLof3c.png",
+      "name": "링크 룬 희귀 상승 에센스",
+      "rating": "희귀",
+      "get": [
+        "드랍",
+        "분해",
+        "원석"
+      ],
+      "available": [
+        "마법"
+      ],
+      "description": "링크 룬 마법 등급을 희귀 등급으로 변경시킵니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_LinkRuneChangeLegend_FcMof3c.png",
+      "name": "링크 룬 전설 상승 에센스",
+      "rating": "전설",
+      "get": [
+        "드랍",
+        "분해",
+        "거래"
+      ],
+      "available": [
+        "희귀"
+      ],
+      "description": "링크 룬 희귀 등급을 전설 등급으로 변경시킵니다."
+    }
+  ],
+  "equipment_essence": [
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_GradeFixedChangeNormal_WHOof3c.png",
+      "name": "마법 상승 에센스",
+      "rating": "마법",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "일반",
+        "마법"
+      ],
+      "description": "일반, 마법 등급 아이템을 마법 등급으로 변경시키고, 옵션 최대개수를 재설정합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomOptionAllChangeMagic_58Pof3c.png",
+      "name": "마법 탄생 에센스",
+      "rating": "마법",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "마법"
+      ],
+      "description": "마법 등급 아이템에 무작위로 옵션을 다시 부여합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomOptionAddMagic_FYRof3c.png",
+      "name": "마법 부여 에센스",
+      "rating": "마법",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "마법"
+      ],
+      "description": "마법 등급 아이템에 무작위로 옵션 1종을 추가 부여합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomOptionValueChangeMagic_ohWof3c.png",
+      "name": "마법 변화 에센스",
+      "rating": "마법",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "마법"
+      ],
+      "description": "마법 등급 아이템에 부여된 옵션의 수치 값을 다시 부여합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_MaxoptioncountAddcountMagic_poXof3c.png",
+      "name": "마법 확장 에센스",
+      "rating": "마법",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "마법"
+      ],
+      "description": "마법 등급 아이템의 옵션 최대개수를 +1합니다.(최대 3개)"
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_GradeRandomchangeNormalToAll_dgaof3c.png",
+      "name": "랜덤 상승 에센스",
+      "rating": "일반",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "일반"
+      ],
+      "description": "일반 등급 아이템을 마법/희귀/유물 등급으로 무작위 변경합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_GradeFixedchangeMagicRareToNormal_uubof3c.png",
+      "name": "희귀 에센스",
+      "rating": "일반",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "마법",
+        "희귀",
+        "전설"
+      ],
+      "description": "마법, 희귀, 전설 등급 아이템을 일반 등급으로 변경합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_GradeFixedChangeMagic_5vdof3c.png",
+      "name": "희귀 상승 에센스",
+      "rating": "마법",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "마법"
+      ],
+      "description": "마법 등급 아이템을 희귀 등급으로 변경시킵니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomOptionAllChangeRare_PRgof3c.png",
+      "name": "희귀 탄생 에센스",
+      "rating": "희귀",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "희귀"
+      ],
+      "description": "희귀 등급 아이템에 무작위로 옵션을 다시 부여합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomOptionAddRare_kQhof3c.png",
+      "name": "희귀 부여 에센스",
+      "rating": "희귀",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "희귀"
+      ],
+      "description": "희귀 등급 아이템에 무작위로 옵션 1종을 추가 부여합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomOptionValueChangeRare_7Fjof3c.png",
+      "name": "희귀 변화 에센스",
+      "rating": "희귀",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "희귀"
+      ],
+      "description": "희귀 등급 아이템에 부여된 옵션의 수치 값을 다시 부여합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_MaxoptioncountAddcountRare_Ijkof3c.png",
+      "name": "희귀 확장 에센스",
+      "rating": "희귀",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "희귀"
+      ],
+      "description": "희귀 등급 아이템의 옵션 최대개수를 +1합니다.(최대 6개)"
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomoptionDeleteMagicRare_0klof3c.png",
+      "name": "소멸 에센스",
+      "rating": "희귀",
+      "get": [
+        "드랍",
+        "분해",
+        "상점",
+        "원석"
+      ],
+      "available": [
+        "마법",
+        "희귀"
+      ],
+      "description": "마법, 희귀 등급 아이템의 옵션 1종을 무작위로 제거합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_QualityAllchangeNormal_hpmof3c.png",
+      "name": "퀄리티 탄생 에센스",
+      "rating": "희귀",
+      "get": [
+        "드랍",
+        "분해",
+        "원석"
+      ],
+      "available": [
+        "일반"
+      ],
+      "description": "일반 등급 아이템의 기존 퀄리티를 삭제하고 새로 부여합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_QualityAlterationNormal_VRoof3c.png",
+      "name": "퀄리티 개조 에센스",
+      "rating": "전설",
+      "get": [
+        "드랍",
+        "분해",
+        "거래",
+        "원석"
+      ],
+      "available": [
+        "일반",
+        "마법",
+        "희귀",
+        "전설"
+      ],
+      "description": "퀄리티 +10 이상인 아이템의 퀄리티를 -5 ~ +10 개조합니다.\n한 아이템에 1회만 사용 가능합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_PrefixoptionAllchangeMagicRare_SLrof3c.png",
+      "name": "접두 옵션 탄생 에센스",
+      "rating": "유물",
+      "get": [
+        "드랍",
+        "분해",
+        "거래",
+        "원석"
+      ],
+      "available": [
+        "마법",
+        "희귀"
+      ],
+      "description": "마법, 희귀 등급 아이템의 접두 옵션을 무작위로 다시 부여합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_PrefixoptionDeleteMagicRare_MLsof3c.png",
+      "name": "접두 옵션 제거 에센스",
+      "rating": "유물",
+      "get": [
+        "드랍",
+        "분해",
+        "거래",
+        "원석"
+      ],
+      "available": [
+        "마법",
+        "희귀"
+      ],
+      "description": "마법, 희귀 등급 아이템의 접두 옵션에서 1종을 무작위로 제거합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_SuffixoptionAllchangeMagicRare_GXtof3c.png",
+      "name": "접미 옵션 탄생 에센스",
+      "rating": "유물",
+      "get": [
+        "드랍",
+        "분해",
+        "거래",
+        "원석"
+      ],
+      "available": [
+        "마법",
+        "희귀"
+      ],
+      "description": "마법, 희귀 등급 아이템의 접미 옵션을 무작위로 다시 부여합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_SuffixoptionDeleteMagicRare_Rluof3c.png",
+      "name": "접미 옵션 제거 에센스",
+      "rating": "유물",
+      "get": [
+        "드랍",
+        "분해",
+        "거래",
+        "원석"
+      ],
+      "available": [
+        "마법",
+        "희귀"
+      ],
+      "description": "마법, 희귀 등급 아이템의 접미 옵션에서 1종을 무작위로 제거합니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_GradeFixedChangeRareToLegend_UCwof3c.png",
+      "name": "전설 상승 에센스",
+      "rating": "전설",
+      "get": [
+        "드랍",
+        "분해",
+        "거래"
+      ],
+      "available": [
+        "희귀"
+      ],
+      "description": "희귀 등급 아이템을 전설 등급으로 변경합니다.\n기존 옵션은 더 이상 인챈트 할 수 없습니다."
+    },
+    {
+      "image": "https://dev-static-bbs.line.games/qa/floor/202201/Icon_Item_Enchant_RandomoptionAddLegend_LHxof3c.png",
+      "name": "전설 부여 에센스",
+      "rating": "전설",
+      "get": [
+        "드랍",
+        "분해",
+        "거래"
+      ],
+      "available": [
+        "전설"
+      ],
+      "description": "전설 등급 아이템에 옵션 1종을 추가 부여합니다."
+    }
+  ]
 }
